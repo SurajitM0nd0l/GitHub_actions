@@ -41,7 +41,7 @@ targets:
     mode: production
     workspace:
       host: https://dbc-c04782a9-2348.cloud.databricks.com
-      # We explicitly deploy to /Workspace/Users/surajitm0nd0l9732@gmail.com to make sure we only have a single copy.
+      # We explicitly deploy to /Workspace/Users/surajitm0nd0l9732@gmail.com
       root_path: /Workspace/Users/a78a097b-fdb0-437f-90ea-28c56eceebee/.bundle/${bundle.name}/${bundle.target}
     variables:
       catalog: dev
