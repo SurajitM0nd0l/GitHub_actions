@@ -7,6 +7,9 @@ bundle:
 include:
   - resources/*.yml
 
+
+# deepak checking again
+
 # Variable declarations
 variables:
   catalog:
