@@ -2,7 +2,7 @@
 # See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
 bundle:
   name: github_action_perform
-  uuid: 352bf598-8cb6-4b73-a923-b504fd6cbf5d
+  # uuid: 352bf598-8cb6-4b73-a923-b504fd6cbf5d
 
 include:
   - resources/*.yml

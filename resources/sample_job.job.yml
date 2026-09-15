@@ -3,7 +3,7 @@
 resources:
   jobs:
     sample_job:
-      name: sample_job
+      name: github_action_sample_job
 
       trigger:
         # Run this job every day, exactly one day from the last run; see https://docs.databricks.com/api/workspace/jobs/create#trigger
@@ -30,3 +30,4 @@ resources:
         - environment_key: default
           spec:
             environment_version: "5"
+        
